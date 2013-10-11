@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49030D1015A338B40079584C /* reservieren.m in Sources */ = {isa = PBXBuildFile; fileRef = 49030D0E15A338B40079584C /* reservieren.m */; };
+		49030D1115A338B40079584C /* reservieren.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49030D0F15A338B40079584C /* reservieren.xib */; };
+		493E700D15919F690043EA34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493E700C15919F690043EA34 /* UIKit.framework */; };
+		493E700F15919F690043EA34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493E700E15919F690043EA34 /* Foundation.framework */; };
+		493E701115919F690043EA34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493E701015919F690043EA34 /* CoreGraphics.framework */; };
+		493E701715919F690043EA34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 493E701515919F690043EA34 /* InfoPlist.strings */; };
+		493E701915919F690043EA34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E701815919F690043EA34 /* main.m */; };
+		493E701D15919F690043EA34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E701C15919F690043EA34 /* AppDelegate.m */; };
+		493E702615919FF20043EA34 /* home.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E702415919FF10043EA34 /* home.m */; };
+		493E702715919FF20043EA34 /* home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493E702515919FF10043EA34 /* home.xib */; };
+		493E702B1591A0110043EA34 /* info.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E70291591A0110043EA34 /* info.m */; };
+		493E702C1591A0110043EA34 /* info.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493E702A1591A0110043EA34 /* info.xib */; };
+		493E70301591A0780043EA34 /* gallery.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E702E1591A0780043EA34 /* gallery.m */; };
+		493E70311591A0780043EA34 /* gallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493E702F1591A0780043EA34 /* gallery.xib */; };
+		493E70351591A0AF0043EA34 /* karte.m in Sources */ = {isa = PBXBuildFile; fileRef = 493E70331591A0AF0043EA34 /* karte.m */; };
+		493E70361591A0AF0043EA34 /* karte.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493E70341591A0AF0043EA34 /* karte.xib */; };
+		493E70381591A26C0043EA34 /* VES.backgroundWEB.png in Resources */ = {isa = PBXBuildFile; fileRef = 493E70371591A26C0043EA34 /* VES.backgroundWEB.png */; };
+		493E703A1591A2760043EA34 /* VES.TRYoutPICs.png in Resources */ = {isa = PBXBuildFile; fileRef = 493E70391591A2760043EA34 /* VES.TRYoutPICs.png */; };
+		493E703C1591A2910043EA34 /* VespucciLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 493E703B1591A2910043EA34 /* VespucciLogo.png */; };
+		493E703E1591A2DA0043EA34 /* 53-house@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 493E703D1591A2DA0043EA34 /* 53-house@2x.png */; };
+		493E70401591A3830043EA34 /* 43-film-roll@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 493E703F1591A3830043EA34 /* 43-film-roll@2x.png */; };
+		493E70421591A38E0043EA34 /* 48-fork-and-knife@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 493E70411591A38E0043EA34 /* 48-fork-and-knife@2x.png */; };
+		493E70441591A3DF0043EA34 /* 123-id-card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 493E70431591A3DF0043EA34 /* 123-id-card@2x.png */; };
+		493E70461591A4810043EA34 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493E70451591A4810043EA34 /* TabBarController.xib */; };
+		4943F93315A45A3000C7DA9D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4943F93215A45A3000C7DA9D /* MessageUI.framework */; };
+		494BBCFD159362F700CE2BA2 /* 83-calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494BBCFC159362F700CE2BA2 /* 83-calendar@2x.png */; };
+		494BBD00159363AC00CE2BA2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494BBCFF159363AC00CE2BA2 /* Default@2x.png */; };
+		494BBD02159363F400CE2BA2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 494BBD01159363F400CE2BA2 /* Default.png */; };
+		49519BCC16778DDF002EC7F7 /* karte.html in Resources */ = {isa = PBXBuildFile; fileRef = 49519BCB16778DDE002EC7F7 /* karte.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49030D0D15A338B40079584C /* reservieren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reservieren.h; sourceTree = "<group>"; };
+		49030D0E15A338B40079584C /* reservieren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reservieren.m; sourceTree = "<group>"; };
+		49030D0F15A338B40079584C /* reservieren.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = reservieren.xib; sourceTree = "<group>"; };
+		493E700815919F690043EA34 /* Vespucci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vespucci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		493E700C15919F690043EA34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		493E700E15919F690043EA34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		493E701015919F690043EA34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		493E701415919F690043EA34 /* Vespucci-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vespucci-Info.plist"; sourceTree = "<group>"; };
+		493E701615919F690043EA34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		493E701815919F690043EA34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		493E701A15919F690043EA34 /* Vespucci-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vespucci-Prefix.pch"; sourceTree = "<group>"; };
+		493E701B15919F690043EA34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		493E701C15919F690043EA34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		493E702315919FF10043EA34 /* home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = home.h; sourceTree = "<group>"; };
+		493E702415919FF10043EA34 /* home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = home.m; sourceTree = "<group>"; };
+		493E702515919FF10043EA34 /* home.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = home.xib; sourceTree = "<group>"; };
+		493E70281591A0110043EA34 /* info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = info.h; sourceTree = "<group>"; };
+		493E70291591A0110043EA34 /* info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = info.m; sourceTree = "<group>"; };
+		493E702A1591A0110043EA34 /* info.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = info.xib; sourceTree = "<group>"; };
+		493E702D1591A0780043EA34 /* gallery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gallery.h; sourceTree = "<group>"; };
+		493E702E1591A0780043EA34 /* gallery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gallery.m; sourceTree = "<group>"; };
+		493E702F1591A0780043EA34 /* gallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = gallery.xib; sourceTree = "<group>"; };
+		493E70321591A0AF0043EA34 /* karte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = karte.h; sourceTree = "<group>"; };
+		493E70331591A0AF0043EA34 /* karte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = karte.m; sourceTree = "<group>"; };
+		493E70341591A0AF0043EA34 /* karte.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = karte.xib; sourceTree = "<group>"; };
+		493E70371591A26C0043EA34 /* VES.backgroundWEB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VES.backgroundWEB.png; sourceTree = "<group>"; };
+		493E70391591A2760043EA34 /* VES.TRYoutPICs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VES.TRYoutPICs.png; sourceTree = "<group>"; };
+		493E703B1591A2910043EA34 /* VespucciLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VespucciLogo.png; sourceTree = "<group>"; };
+		493E703D1591A2DA0043EA34 /* 53-house@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-house@2x.png"; sourceTree = "<group>"; };
+		493E703F1591A3830043EA34 /* 43-film-roll@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "43-film-roll@2x.png"; sourceTree = "<group>"; };
+		493E70411591A38E0043EA34 /* 48-fork-and-knife@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "48-fork-and-knife@2x.png"; sourceTree = "<group>"; };
+		493E70431591A3DF0043EA34 /* 123-id-card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123-id-card@2x.png"; sourceTree = "<group>"; };
+		493E70451591A4810043EA34 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		4943F93215A45A3000C7DA9D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		494BBCFC159362F700CE2BA2 /* 83-calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar@2x.png"; sourceTree = "<group>"; };
+		494BBCFF159363AC00CE2BA2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		494BBD01159363F400CE2BA2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		49519BCB16778DDE002EC7F7 /* karte.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = karte.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		493E700515919F690043EA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4943F93315A45A3000C7DA9D /* MessageUI.framework in Frameworks */,
+				493E700D15919F690043EA34 /* UIKit.framework in Frameworks */,
+				493E700F15919F690043EA34 /* Foundation.framework in Frameworks */,
+				493E701115919F690043EA34 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		493E6FFD15919F690043EA34 = {
+			isa = PBXGroup;
+			children = (
+				494BBD01159363F400CE2BA2 /* Default.png */,
+				494BBCFF159363AC00CE2BA2 /* Default@2x.png */,
+				493E701215919F690043EA34 /* Vespucci */,
+				493E700B15919F690043EA34 /* Frameworks */,
+				493E700915919F690043EA34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		493E700915919F690043EA34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				493E700815919F690043EA34 /* Vespucci.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		493E700B15919F690043EA34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4943F93215A45A3000C7DA9D /* MessageUI.framework */,
+				493E700C15919F690043EA34 /* UIKit.framework */,
+				493E700E15919F690043EA34 /* Foundation.framework */,
+				493E701015919F690043EA34 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		493E701215919F690043EA34 /* Vespucci */ = {
+			isa = PBXGroup;
+			children = (
+				493E701B15919F690043EA34 /* AppDelegate.h */,
+				493E701C15919F690043EA34 /* AppDelegate.m */,
+				493E701315919F690043EA34 /* Supporting Files */,
+				493E702315919FF10043EA34 /* home.h */,
+				493E702415919FF10043EA34 /* home.m */,
+				493E702515919FF10043EA34 /* home.xib */,
+				493E70281591A0110043EA34 /* info.h */,
+				493E70291591A0110043EA34 /* info.m */,
+				493E702A1591A0110043EA34 /* info.xib */,
+				493E702D1591A0780043EA34 /* gallery.h */,
+				493E702E1591A0780043EA34 /* gallery.m */,
+				493E702F1591A0780043EA34 /* gallery.xib */,
+				493E70321591A0AF0043EA34 /* karte.h */,
+				493E70331591A0AF0043EA34 /* karte.m */,
+				493E70341591A0AF0043EA34 /* karte.xib */,
+				49519BCB16778DDE002EC7F7 /* karte.html */,
+				493E70451591A4810043EA34 /* TabBarController.xib */,
+				49030D0D15A338B40079584C /* reservieren.h */,
+				49030D0E15A338B40079584C /* reservieren.m */,
+				49030D0F15A338B40079584C /* reservieren.xib */,
+			);
+			path = Vespucci;
+			sourceTree = "<group>";
+		};
+		493E701315919F690043EA34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				494BBCFC159362F700CE2BA2 /* 83-calendar@2x.png */,
+				493E701415919F690043EA34 /* Vespucci-Info.plist */,
+				493E70371591A26C0043EA34 /* VES.backgroundWEB.png */,
+				493E70411591A38E0043EA34 /* 48-fork-and-knife@2x.png */,
+				493E70431591A3DF0043EA34 /* 123-id-card@2x.png */,
+				493E703D1591A2DA0043EA34 /* 53-house@2x.png */,
+				493E703F1591A3830043EA34 /* 43-film-roll@2x.png */,
+				493E70391591A2760043EA34 /* VES.TRYoutPICs.png */,
+				493E703B1591A2910043EA34 /* VespucciLogo.png */,
+				493E701515919F690043EA34 /* InfoPlist.strings */,
+				493E701815919F690043EA34 /* main.m */,
+				493E701A15919F690043EA34 /* Vespucci-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		493E700715919F690043EA34 /* Vespucci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493E702015919F690043EA34 /* Build configuration list for PBXNativeTarget "Vespucci" */;
+			buildPhases = (
+				493E700415919F690043EA34 /* Sources */,
+				493E700515919F690043EA34 /* Frameworks */,
+				493E700615919F690043EA34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vespucci;
+			productName = Vespucci;
+			productReference = 493E700815919F690043EA34 /* Vespucci.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		493E6FFF15919F690043EA34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 493E700215919F690043EA34 /* Build configuration list for PBXProject "Vespucci" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 493E6FFD15919F690043EA34;
+			productRefGroup = 493E700915919F690043EA34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				493E700715919F690043EA34 /* Vespucci */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		493E700615919F690043EA34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493E701715919F690043EA34 /* InfoPlist.strings in Resources */,
+				493E702715919FF20043EA34 /* home.xib in Resources */,
+				493E702C1591A0110043EA34 /* info.xib in Resources */,
+				493E70311591A0780043EA34 /* gallery.xib in Resources */,
+				493E70361591A0AF0043EA34 /* karte.xib in Resources */,
+				493E70381591A26C0043EA34 /* VES.backgroundWEB.png in Resources */,
+				493E703A1591A2760043EA34 /* VES.TRYoutPICs.png in Resources */,
+				493E703C1591A2910043EA34 /* VespucciLogo.png in Resources */,
+				493E703E1591A2DA0043EA34 /* 53-house@2x.png in Resources */,
+				493E70401591A3830043EA34 /* 43-film-roll@2x.png in Resources */,
+				493E70421591A38E0043EA34 /* 48-fork-and-knife@2x.png in Resources */,
+				493E70441591A3DF0043EA34 /* 123-id-card@2x.png in Resources */,
+				493E70461591A4810043EA34 /* TabBarController.xib in Resources */,
+				494BBCFD159362F700CE2BA2 /* 83-calendar@2x.png in Resources */,
+				494BBD00159363AC00CE2BA2 /* Default@2x.png in Resources */,
+				494BBD02159363F400CE2BA2 /* Default.png in Resources */,
+				49030D1115A338B40079584C /* reservieren.xib in Resources */,
+				49519BCC16778DDF002EC7F7 /* karte.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		493E700415919F690043EA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493E701915919F690043EA34 /* main.m in Sources */,
+				493E701D15919F690043EA34 /* AppDelegate.m in Sources */,
+				493E702615919FF20043EA34 /* home.m in Sources */,
+				493E702B1591A0110043EA34 /* info.m in Sources */,
+				493E70301591A0780043EA34 /* gallery.m in Sources */,
+				493E70351591A0AF0043EA34 /* karte.m in Sources */,
+				49030D1015A338B40079584C /* reservieren.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		493E701515919F690043EA34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				493E701615919F690043EA34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		493E701E15919F690043EA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		493E701F15919F690043EA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		493E702115919F690043EA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vespucci/Vespucci-Prefix.pch";
+				INFOPLIST_FILE = "Vespucci/Vespucci-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		493E702215919F690043EA34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vespucci/Vespucci-Prefix.pch";
+				INFOPLIST_FILE = "Vespucci/Vespucci-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		493E700215919F690043EA34 /* Build configuration list for PBXProject "Vespucci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493E701E15919F690043EA34 /* Debug */,
+				493E701F15919F690043EA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493E702015919F690043EA34 /* Build configuration list for PBXNativeTarget "Vespucci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493E702115919F690043EA34 /* Debug */,
+				493E702215919F690043EA34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 493E6FFF15919F690043EA34 /* Project object */;
+}
